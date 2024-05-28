@@ -5,6 +5,8 @@
 #include "DiscordHelper.h"
 #include "DiscordLibrary.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(DiscordHelper)
+
 DEFINE_LOG_CATEGORY_STATIC(LogDiscord, All, All)
 
 bool UDiscordHelper::Initialize(int64 ClientID, bool bDiscordRequired)
